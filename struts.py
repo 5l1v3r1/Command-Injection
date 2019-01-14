@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
     import sys
     if len(sys.argv) != 3:
-        print("Usage: struts.py <url> <cmd>")
+        print("Usage: struts.py <url_to_struts_web_app> <cmd_to_execute on server>")
 
     else:
         url = sys.argv[1]
